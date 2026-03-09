@@ -34,8 +34,8 @@ router.post(
   (req, res) => {
     const {
       title,
-      short_desc,
-      long_desc,
+      category,
+      description,
       tech_stack,
       tags,
       price,
@@ -99,8 +99,8 @@ router.post(
     const values = [
       user_id,
       title,
-      short_desc,
-      long_desc,
+      category, // storing category into short_desc
+      description, // storing description into long_desc
       techStackStr,
       tagsStr,
       price,
@@ -130,7 +130,7 @@ router.post(
 router.get("/project/:id", (req, res) => {
   const projectId = req.params.id;
   const sql = `
-    SELECT pl.*, u.name as seller_name 
+    SELECT pl.*, pl.short_desc AS category, pl.long_desc AS description, u.name as seller_name 
     FROM project_listings pl
     JOIN users u ON pl.user_id = u.id
     WHERE pl.id = ?
@@ -150,7 +150,7 @@ router.get("/project/:id", (req, res) => {
 // ----- GET - Explore all projects -----
 router.get("/explore", (req, res) => {
   db.query(
-    "SELECT * FROM project_listings ORDER BY created_at DESC",
+    "SELECT *, short_desc AS category, long_desc AS description FROM project_listings ORDER BY created_at DESC",
     (err, results) => {
       if (err) {
         console.error("❌ Error fetching projects:", err);
@@ -165,7 +165,7 @@ router.get("/explore", (req, res) => {
 router.get("/my-projects", protect, (req, res) => {
   const user_id = req.user.id;
   db.query(
-    "SELECT * FROM project_listings WHERE user_id = ? ORDER BY created_at DESC",
+    "SELECT *, short_desc AS category, long_desc AS description FROM project_listings WHERE user_id = ? ORDER BY created_at DESC",
     [user_id],
     (err, results) => {
       if (err) {
