@@ -52,14 +52,16 @@ router.post("/register/send-otp", async (req, res) => {
       const otpExpires = new Date(Date.now() + 10 * 60 * 1000); // OTP expires in 10 minutes
 
       let sql, params;
+      const actualOtp = otp;
+
       if (results.length > 0 && !results[0].is_verified) {
         // User exists but is not verified, update their info and new OTP
         sql = "UPDATE users SET name = ?, password = ?, role = ?, otp = ?, otp_expires = ? WHERE email = ?";
-        params = [name, hashedPassword, role || "user", otp, otpExpires, email];
+        params = [name, hashedPassword, role || "user", actualOtp, otpExpires, email];
       } else {
         // New user registration
         sql = "INSERT INTO users (name, email, password, role, otp, otp_expires) VALUES (?, ?, ?, ?, ?, ?)";
-        params = [name, email, hashedPassword, role || "user", otp, otpExpires];
+        params = [name, email, hashedPassword, role || "user", actualOtp, otpExpires];
       }
 
       db.query(sql, params, (err, result) => {
