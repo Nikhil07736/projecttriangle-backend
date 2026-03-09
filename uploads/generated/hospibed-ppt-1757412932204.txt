@@ -1,0 +1,40 @@
+Slide 1: HospiBed - Revolutionizing Hospital Bed Bookings
+
+* Streamlines hospital bed reservation process for patients and healthcare providers.
+* Eliminates the hassle of phone calls and manual paperwork.
+* Improves hospital bed utilization and patient flow.
+
+
+Slide 2: The Problem: Inefficient Bed Allocation
+
+* Current systems are often fragmented and inefficient.
+* Manual processes lead to delays and potential errors in bed assignments.
+* Lack of real-time availability information causes frustration for patients and staff.
+
+
+Slide 3: HospiBed Solution: A Seamless Online Platform
+
+* User-friendly interface for easy bed searching and booking.
+* Real-time bed availability updates across all hospital departments.
+* Secure and reliable platform built with the latest technology (MERN stack).
+
+
+Slide 4: Key Features of HospiBed
+
+* Patient profile management and medical history storage.
+* Integration with hospital systems for seamless data exchange.
+* Secure payment gateway for convenient online transactions.
+
+
+Slide 5: Technology & Scalability
+
+* Built using the robust MERN stack (MongoDB, Express.js, React, Node.js).
+* Scalable architecture to handle increasing user demand and hospital networks.
+* Secure and reliable infrastructure for data protection and privacy.
+
+
+Slide 6: HospiBed: The Future of Hospital Bed Management
+
+* Improved patient experience through faster and easier access to beds.
+* Enhanced operational efficiency for hospitals and healthcare providers.
+* A sustainable solution for better resource management and cost optimization.

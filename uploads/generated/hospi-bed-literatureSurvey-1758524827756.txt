@@ -1,0 +1,35 @@
+Slide 1: Introducing Hospi-Bed: Revolutionizing Emergency Care
+
+*   Reduces preventable deaths due to delayed hospital bed access.
+*   Pre-booking system for hospital beds during emergencies.
+*   Leveraging technology for efficient resource allocation.
+
+Slide 2: The Problem: A Critical Shortage
+
+*   Overcrowded hospitals leading to delayed treatment.
+*   Lack of real-time bed availability information.
+*   Increased mortality rates due to insufficient resources.
+
+Slide 3: Hospi-Bed: The Solution
+
+*   Real-time hospital bed availability tracking.
+*   User-friendly pre-booking platform for emergency situations.
+*   Seamless integration with hospital management systems.
+
+Slide 4: Technology & Features (MERN Stack)
+
+*   MongoDB database for efficient data management.
+*   Express.js backend for robust API development.
+*   React frontend for an intuitive user experience.  Node.js server.
+
+Slide 5: Impact & Benefits
+
+*   Faster access to critical care, reducing wait times.
+*   Improved hospital resource management and efficiency.
+*   Increased patient survival rates and better overall outcomes.
+
+Slide 6: Call to Action: Join the Movement
+
+*   Partner with us to implement Hospi-Bed in your community.
+*   Invest in a system that saves lives.
+*   Contact us to learn more and get involved.

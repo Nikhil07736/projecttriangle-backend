@@ -1,0 +1,30 @@
+import java.util.*;
+
+class Main {
+    public static void main(String[] args) {
+
+        Scanner scn = new Scanner(System.in);
+
+        int n = scn.nextInt();   // total numbers including missing
+        int[] arr = new int[n-1];
+
+        // input array
+        for(int i = 0; i < n-1; i++){
+            arr[i] = scn.nextInt();
+        }
+
+        // sum of first n numbers
+        int total = n * (n + 1) / 2;
+
+        // sum of array elements
+        int sum = 0;
+        for(int i = 0; i < n-1; i++){
+            sum = sum + arr[i];
+        }
+
+        // missing number
+        int missing = total - sum;
+
+        System.out.println("Missing number: " + missing);
+    }
+}

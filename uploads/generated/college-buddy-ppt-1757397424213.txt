@@ -1,0 +1,40 @@
+Slide 1: College Buddy: Your AI-Powered College Admission Assistant
+
+*   Streamlines the college application process.
+*   Provides personalized guidance and support.
+*   Utilizes AI-driven counselling for better future planning.
+
+
+Slide 2:  Simplifying the Application Process
+
+*   Centralized application management.
+*   Automated deadline reminders and trackers.
+*   Easy access to scholarship and financial aid information.
+
+
+Slide 3:  AI-Powered College Counselling
+
+*   Personalized college recommendations based on your profile.
+*   AI-driven essay feedback and improvement suggestions.
+*   Interactive chatbots for instant question answering.
+
+
+Slide 4:  Future Planning with College Buddy
+
+*   Career path exploration and guidance.
+*   Personalized learning resources and tools.
+*   Connection to mentors and professionals in your field of interest.
+
+
+Slide 5:  The Tech Behind College Buddy: MERN Stack
+
+*   MongoDB: Flexible and scalable database for user data.
+*   Express.js: Efficient and robust backend framework.
+*   React:  Dynamic and user-friendly frontend interface.  Node.js: Server-side JavaScript environment.
+
+
+Slide 6:  College Buddy: Your Partner for Success
+
+*   Reduce stress and anxiety during college applications.
+*   Increase your chances of getting into your dream school.
+*   Navigate your future with confidence and clarity.

@@ -1,0 +1,35 @@
+Slide 1:
+Title: Modernizing Attendance: The Problem with Manual Tracking
+*   Traditional paper-based methods are time-consuming, prone to human error, and result in data that is difficult to analyze.
+*   Lack of real-time visibility makes it challenging for administrators to track trends or for individuals to verify their own records.
+*   Physical records are insecure, can be easily lost or damaged, and do not scale for growing organizations.
+
+Slide 2:
+Title: Our Solution: A Centralized Attendance Management System (AMS)
+*   A full-stack web application built to digitize and automate the entire attendance tracking process.
+*   Provides a single, secure platform for administrators, teachers, and students/employees to manage and view records.
+*   Designed to be efficient, scalable, and accessible from any modern web browser for real-time updates.
+
+Slide 3:
+Title: Core Features & Functionality
+*   Admin/Teacher Dashboard: Easily add/manage users, create attendance sessions, and monitor records in real time.
+*   User Portal: Allows students or employees to mark their own presence and view their complete attendance history.
+*   Reporting & Analytics: Instantly generate and export detailed attendance reports by date, user, or class/department.
+
+Slide 4:
+Title: The MERN Technology Stack
+*   **React.js (Front-end):** Creates a dynamic, responsive, and interactive user interface for a seamless user experience.
+*   **Node.js & Express.js (Back-end):** A powerful server-side environment to handle business logic, API requests, and user authentication.
+*   **MongoDB (Database):** A flexible NoSQL database used to securely store all user profiles, sessions, and attendance data.
+
+Slide 5:
+Title: System Architecture & Data Flow
+*   The user interacts with the React front-end, which sends API requests to the back-end server.
+*   The Express.js server processes the request, performs necessary logic, and communicates with the MongoDB database.
+*   Data is stored or retrieved, and a response is sent back to the React application to update the UI instantly.
+
+Slide 6:
+Title: Benefits & Future Scope
+*   **Key Benefits:** Drastically improves efficiency, enhances data accuracy and security, and provides valuable, accessible insights.
+*   **Scalability:** The MERN architecture allows the system to easily handle growth in users and data without performance loss.
+*   **Future Enhancements:** Potential for mobile app integration, QR code-based check-ins, and automated email notifications.

@@ -1,0 +1,40 @@
+Slide 1: HospiBed: Revolutionizing Emergency Hospital Access
+
+*   Pre-booking hospital beds to reduce wait times.
+*   Streamlines the emergency admission process for patients.
+*   Improves hospital resource allocation and efficiency.
+
+
+Slide 2: The Problem: Long Emergency Room Waits
+
+*   Significant delays in emergency room admittance lead to patient suffering.
+*   Overcrowding impacts the quality of care and resource availability.
+*   Inefficient allocation of hospital beds contributes to prolonged wait times.
+
+
+Slide 3: HospiBed: The Solution
+
+*   A user-friendly platform connecting patients with available hospital beds.
+*   Real-time bed availability updates for hospitals and patients.
+*   Reduced wait times and improved patient experience.
+
+
+Slide 4: How HospiBed Works: A Seamless Process
+
+*   Patients register their details and emergency needs.
+*   The system matches patients with available beds based on criteria.
+*   Hospitals manage bed availability and patient information.
+
+
+Slide 5: Technology & Scalability: Built on MERN
+
+*   Robust and scalable MERN stack (MongoDB, Express.js, React, Node.js).
+*   Secure and reliable platform ensuring data privacy.
+*   Future-ready architecture allowing for seamless expansion and integration.
+
+
+Slide 6: Call to Action: Partner with HospiBed
+
+*   Join us in revolutionizing emergency hospital care.
+*   Contact us to learn more about partnerships and collaborations.
+*   Invest in a future where emergency access is efficient and effective.

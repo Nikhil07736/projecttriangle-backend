@@ -1,0 +1,52 @@
+import java.util.*;
+
+public class Main{
+    public static void main(String[]args){
+        Scanner scn= new Scanner(System.in);
+
+        int n1 = scn.nextInt();
+        int[] arr1 = new int[n1];
+
+        for(int i = 0 ; i < arr1.length ; i++){
+            arr1[i] = scn.nextInt();
+        }
+
+        int n2 = scn.nextInt();
+        int[] arr2 = new int[n2];
+
+        for(int i = 0 ; i < arr2.length ; i++){
+            arr2[i] = scn.nextInt();
+        }
+
+        int[] merge = new int[n1 + n2];
+
+        int i = 0, j = 0, k = 0;
+
+        while(i < n1 && j < n2){
+            if(arr1[i] < arr2[j]){
+                merge[k] = arr1[i];
+                i++;
+            }else{
+                merge[k] = arr2[j];
+                j++;
+            }
+            k++;
+        }
+
+        while(i < n1){
+            merge[k] = arr1[i];
+            i++;
+            k++;
+        }
+
+        while(j < n2){
+            merge[k] = arr2[j];
+            j++;
+            k++;
+        }
+
+        for(int x : merge){
+            System.out.print(x + " ");
+        }
+    }
+}
