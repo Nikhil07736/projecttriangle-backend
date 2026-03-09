@@ -2,24 +2,30 @@
 
 const mysql = require('mysql2');
 const dotenv = require('dotenv');
+
 dotenv.config();
 
-// Create a MySQL connection
+// Create MySQL connection
 const connection = mysql.createConnection({
-  host: process.env.DB_HOST,      // e.g., 'localhost'
-  user: process.env.DB_USER,      // e.g., 'root'
+  host: process.env.DB_HOST,
+  port: process.env.DB_PORT, // important for Aiven
+  user: process.env.DB_USER,
   password: process.env.DB_PASSWORD,
-  database: process.env.DB_NAME,  // e.g., 'freelance_platform'
+  database: process.env.DB_NAME,
+
+  ssl: {
+    rejectUnauthorized: false
+  }
 });
 
-// Connect to the MySQL database
+// Connect to database
 connection.connect((err) => {
   if (err) {
-    console.error('❌ Database connection failed:', err.stack);
+    console.error('❌ Database connection failed:', err);
     return;
   }
-  console.log('✅ Connected to MySQL database.');
+
+  console.log('✅ Connected to Aiven MySQL database');
 });
 
-// Export the connection
 module.exports = connection;
